@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       caveat: ['"Caveat", cursive'],
+      satisfy: ['"Satisfy", cursive'],
     },
     extend: {
       colors: {

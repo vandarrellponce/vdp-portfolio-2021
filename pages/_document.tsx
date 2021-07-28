@@ -11,6 +11,11 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
             rel="stylesheet"
           />
+
+          <link
+            href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+            rel="stylesheet"
+          />
         </Head>
         <body className="bg-gradient-to-r from-green to-blue-400">
           <Main />
