@@ -1,3 +1,4 @@
+import { GetStaticPropsContext } from 'next'
 import { services } from '../data'
 
 const index = () => {

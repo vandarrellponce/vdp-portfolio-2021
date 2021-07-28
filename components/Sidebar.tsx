@@ -7,6 +7,7 @@ import {
 
 import { GoLocation } from 'react-icons/go'
 import { GiTie } from 'react-icons/gi'
+import Link from 'next/link'
 const Sidebar = () => {
   return (
     <div className="px-0 py-0">
@@ -21,7 +22,7 @@ const Sidebar = () => {
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Web Developer</p>
       <a
-        href="/resume"
+        href="#"
         download="pdf name"
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full"
       >
@@ -30,19 +31,32 @@ const Sidebar = () => {
       </a>
       {/* social icons */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-gray-800 md:w-full">
-        <a href="https://youtube.com/motofreakph" target="_blank">
+        <a
+          href="https://youtube.com/motofreakph"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillYoutube className="w-8 h-8" />
         </a>
-        <a href="https://github.com/vandarrellponce" target="_blank">
+        <a
+          href="https://github.com/vandarrellponce"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillGithub className="w-8 h-8" />
         </a>
 
-        <a href="https://facebook.com/vpdevlife" target="_blank">
+        <a
+          href="https://facebook.com/vpdevlife"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillFacebook className="w-8 h-8" />
         </a>
         <a
           href="https://www.linkedin.com/in/van-darrell-ponce-5aba7310a/"
           target="_blank"
+          rel="noreferrer"
         >
           <AiFillLinkedin className="w-8 h-8" />
         </a>
