@@ -1,16 +1,64 @@
+import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai'
+import { GoLocation } from 'react-icons/go'
+import { GiTie } from 'react-icons/gi'
 const Sidebar = () => {
   return (
-    <div>
+    <div className="py-0 px-0">
       <img
         src="https://scontent.fceb2-1.fna.fbcdn.net/v/t1.6435-9/133079395_4003491639663437_7040102776429762782_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeGYAe8PhoX64Bvpp2M_oax39AvjL3xrYQr0C-MvfGthCtsTOV2EP87y4i9FmiMJC5Yp39RfVh96kp-dG_DxEdel&_nc_ohc=skp2sJwp2GAAX-l-bCP&tn=0XpDb6VUv5jaqUUY&_nc_ht=scontent.fceb2-1.fna&oh=4fd3566bce3886c761a201f194795ecf&oe=61266D39"
         alt="Van Darrell Ponce"
+        className="w-64 h-64 mx-auto rounded-full"
       />
 
-      <h3>
+      <h3 className="my-4 text-3xl font-medium tracking-wider ">
         <span>Van Darrell </span>Ponce
       </h3>
-      <p>Web Developer</p>
-      <p>Download Resume</p>
+      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Web Developer</p>
+      <a
+        href="#"
+        download="pdf name"
+        className="px-2 py-1 my-3 bg-gray-200 rounded-full flex items-center justify-center"
+      >
+        <GiTie className="w-6 h-6" />
+        Download Resume
+      </a>
+      {/* social icons */}
+      <div className="flex justify-around w-9/12 my-5 text-gray-800 md:w-full mx-auto">
+        <a href="https://youtube.com/motofreakph" target="_blank">
+          <AiFillYoutube className="w-8 h-8" />
+        </a>
+        <a href="https://github.com/vandarrellponce" target="_blank">
+          <AiFillGithub className="w-8 h-8" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/van-darrell-ponce-5aba7310a/"
+          target="_blank"
+        >
+          <AiFillLinkedin className="w-8 h-8" />
+        </a>
+      </div>
+
+      {/* address */}
+      <div
+        className="py-4 my-5 bg-gray-200"
+        style={{ marginLeft: '-1rem', marginRight: '-1rem' }}
+      >
+        <div className="flex items-center justify-center space-x-2">
+          <GoLocation className="w-4 h-4" />
+          <span> Cebu, Philippines</span>
+        </div>
+        <p className="my-2">vandarrell.ponce@gmail.com</p>
+        <p className="my-2">+63-956-0351422</p>
+      </div>
+      {/* Buttons */}
+      <div>
+        <button className="text-sm bg-gradient-to-r from-green-400 to-blue-500 w-8/12 rounded-full py-2 px-5 my-2 text-white">
+          Message Me
+        </button>
+        <button className="text-sm bg-gradient-to-r from-green-400 to-blue-500 w-8/12 rounded-full py-2 px-5 my-2 text-white">
+          Change Theme
+        </button>
+      </div>
     </div>
   )
 }
