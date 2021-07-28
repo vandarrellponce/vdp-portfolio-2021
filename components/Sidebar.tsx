@@ -1,4 +1,10 @@
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai'
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiFillYoutube,
+  AiFillFacebook,
+} from 'react-icons/ai'
+
 import { GoLocation } from 'react-icons/go'
 import { GiTie } from 'react-icons/gi'
 const Sidebar = () => {
@@ -30,6 +36,10 @@ const Sidebar = () => {
         <a href="https://github.com/vandarrellponce" target="_blank">
           <AiFillGithub className="w-8 h-8" />
         </a>
+
+        <a href="https://facebook.com/vpdevlife" target="_blank">
+          <AiFillFacebook className="w-8 h-8" />
+        </a>
         <a
           href="https://www.linkedin.com/in/van-darrell-ponce-5aba7310a/"
           target="_blank"
@@ -58,9 +68,7 @@ const Sidebar = () => {
         >
           Email me
         </button>
-        <button
-          className="w-8/12 px-5 py-2 my-2 text-sm text-white rounded-full bg-gradient-to-r from-green-400 to-blue-500 focus:outline-none"
-        >
+        <button className="w-8/12 px-5 py-2 my-2 text-sm text-white rounded-full bg-gradient-to-r from-green-400 to-blue-500 focus:outline-none">
           Change Theme
         </button>
       </div>
