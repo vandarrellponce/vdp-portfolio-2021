@@ -5,7 +5,13 @@ module.exports = {
     fontFamily: {
       caveat: ['"Caveat", cursive'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        green: {
+          DEFAULT: '#35C7A8',
+        },
+      },
+    },
   },
   variants: {
     extend: {},
