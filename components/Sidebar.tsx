@@ -15,7 +15,7 @@ const Sidebar = () => {
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Web Developer</p>
       <a
-        href="#"
+        href="/resume"
         download="pdf name"
         className="px-2 py-1 my-3 bg-gray-200 rounded-full flex items-center justify-center"
       >
@@ -52,10 +52,17 @@ const Sidebar = () => {
       </div>
       {/* Buttons */}
       <div>
-        <button className="text-sm bg-gradient-to-r from-green-400 to-blue-500 w-8/12 rounded-full py-2 px-5 my-2 text-white">
-          Message Me
+        <button
+          onClick={() => window.open('mailto:vandarrell.ponce@gmail.com')}
+          className="text-sm bg-gradient-to-r from-green-400 to-blue-500 w-8/12 
+          rounded-full py-2 px-5 my-2 text-white focus:outline-none"
+        >
+          Email me
         </button>
-        <button className="text-sm bg-gradient-to-r from-green-400 to-blue-500 w-8/12 rounded-full py-2 px-5 my-2 text-white">
+        <button
+          className="text-sm bg-gradient-to-r from-green-400 to-blue-500 w-8/12 
+        rounded-full py-2 px-5 my-2 text-white focus:outline-none"
+        >
           Change Theme
         </button>
       </div>
