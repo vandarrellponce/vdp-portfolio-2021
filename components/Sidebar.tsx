@@ -10,7 +10,7 @@ const Sidebar = () => {
         className="w-64 h-64 mx-auto rounded-full"
       />
 
-      <h3 className="my-4 text-3xl font-medium tracking-wider ">
+      <h3 className="my-4 text-4xl font-medium tracking-wider font-caveat">
         <span>Van Darrell </span>Ponce
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Web Developer</p>
