@@ -17,8 +17,8 @@ const Sidebar = () => {
         className="w-64 h-64 mx-auto rounded-full"
       />
 
-      <h3 className="my-4 text-4xl font-bold tracking-wider font-satisfy">
-        <span className="text-green">Van Darrell </span>Ponce
+      <h3 className="my-4 text-4xl font-bold tracking-wider font-satisfy text-customBlack">
+        <span>Van Darrell </span>Ponce
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Web Developer</p>
       <a
@@ -78,11 +78,11 @@ const Sidebar = () => {
       <div>
         <button
           onClick={() => window.open('mailto:vandarrell.ponce@gmail.com')}
-          className="w-8/12 px-5 py-2 my-2 text-sm text-white rounded-full bg-gradient-to-r from-green-400 to-blue-500 focus:outline-none"
+          className="w-8/12 px-5 py-2 my-2 text-sm text-white rounded-full bg-customBlack focus:outline-none"
         >
           Email me
         </button>
-        <button className="w-8/12 px-5 py-2 my-2 text-sm text-white rounded-full bg-gradient-to-r from-green-400 to-blue-500 focus:outline-none">
+        <button className="w-8/12 px-5 py-2 my-2 text-sm text-white rounded-full bg-customBlack focus:outline-none">
           Change Theme
         </button>
       </div>
