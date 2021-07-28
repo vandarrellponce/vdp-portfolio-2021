@@ -11,6 +11,7 @@ const index = () => {
           since highscool creating simple html pages. In college I pursue an
           Engineering course and put away my coding interests.
         </h5>
+        <br />
         <h5>
           Way back 2019 I started to get back at coding as a hobby and slowly
           got back on track. Now I learned so much thing specially in web
@@ -18,6 +19,7 @@ const index = () => {
           ecommerce sites, premium business sites, realtime-chat apps with video
           calling, deploying servers and hosting webapps online.
         </h5>
+        <br />
         <h5>
           I want to extend my interests in programming by landing a job in this
           industry and hoping to find a team that would really make me a good
