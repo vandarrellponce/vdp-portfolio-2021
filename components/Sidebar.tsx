@@ -17,20 +17,22 @@ const Sidebar = () => {
         className="w-64 h-64 mx-auto rounded-full"
       />
 
-      <h3 className="my-4 text-4xl font-bold tracking-wider font-satisfy text-customBlack">
+      <h3 className="my-4 text-4xl font-bold tracking-wider text-white font-satisfy">
         <span>Van Darrell </span>Ponce
       </h3>
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Web Developer</p>
+      <p className="px-2 py-1 my-3 text-white rounded-full bg-black3">
+        Web Developer
+      </p>
       <a
         href="#"
         download="pdf name"
-        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full"
+        className="flex items-center justify-center px-2 py-1 my-3 text-white rounded-full bg-black3"
       >
         <GiTie className="w-6 h-6" />
         Download Resume
       </a>
       {/* social icons */}
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-gray-800 md:w-full">
+      <div className="flex justify-around w-9/12 mx-auto my-5 text-white md:w-full">
         <a
           href="https://youtube.com/motofreakph"
           target="_blank"
@@ -64,7 +66,7 @@ const Sidebar = () => {
 
       {/* address */}
       <div
-        className="py-4 my-5 bg-gray-200"
+        className="py-4 my-5 text-white bg-black3"
         style={{ marginLeft: '-1rem', marginRight: '-1rem' }}
       >
         <div className="flex items-center justify-center space-x-2">

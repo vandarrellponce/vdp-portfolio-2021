@@ -10,10 +10,10 @@ const ServiceCard: React.FC<{
   }
   return (
     <div className="flex items-center p-2 space-x-4 ">
-      <Icon className="w-32 h-32 text-customBlack" />
+      <Icon className="w-32 h-32 text-white" />
       <div>
-        <h4 className="mb-1 text-xl font-bold">{name} </h4>
-        <p dangerouslySetInnerHTML={createMarkup()} />
+        <h4 className="mb-1 text-xl font-bold text-white">{name} </h4>
+        <p className="text-white" dangerouslySetInnerHTML={createMarkup()} />
       </div>
     </div>
   )

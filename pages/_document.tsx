@@ -16,8 +16,32 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
             rel="stylesheet"
           />
+
+          <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap"
+            rel="stylesheet"
+          />
+
+          <link
+            href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Roboto&display=swap"
+            rel="stylesheet"
+          />
+
+          <link
+            href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap"
+            rel="stylesheet"
+          />
+
+          <link
+            href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Racing+Sans+One&family=Roboto&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+            rel="stylesheet"
+          />
         </Head>
-        <body className="bg-gray-100">
+        <body className="bg-black1">
           <Main />
           <NextScript />
         </body>

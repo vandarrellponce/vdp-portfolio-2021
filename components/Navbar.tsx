@@ -13,14 +13,14 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between p-4 my-3">
-      <span className="text-3xl font-bold border-b-4 md:text-2xl text-customBlack">
+      <span className="text-3xl font-bold text-white border-b-4 font-blackSans md:text-2xl">
         {activeItem}
       </span>
       <div className="flex space-x-4 font-lg">
         {activeItem !== 'About' && (
           <Link href="/">
             <a
-              className="hover:text-red-600"
+              className="text-white hover:text-red-600"
               onClick={(e) => {
                 setActiveItem('About')
               }}
@@ -33,7 +33,7 @@ const Navbar = () => {
         {activeItem !== 'Projects' && (
           <Link href="/projects">
             <a
-              className="hover:text-red-600"
+              className="text-white hover:text-red-600"
               onClick={(e) => {
                 setActiveItem('Projects')
               }}
@@ -46,7 +46,7 @@ const Navbar = () => {
         {activeItem !== 'Resume' && (
           <Link href="/resume">
             <a
-              className="hover:text-red-600"
+              className="text-white hover:text-red-600"
               onClick={(e) => {
                 setActiveItem('Resume')
               }}

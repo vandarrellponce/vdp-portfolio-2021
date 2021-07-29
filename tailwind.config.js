@@ -5,6 +5,7 @@ module.exports = {
     fontFamily: {
       caveat: ['"Caveat", cursive'],
       satisfy: ['"Satisfy", cursive'],
+      blackSans: ['"Roboto", sans-serif;'],
     },
     extend: {
       colors: {
@@ -13,6 +14,18 @@ module.exports = {
         },
         customBlack: {
           DEFAULT: '#1F2937',
+        },
+        black1: {
+          DEFAULT: 'rgba(24,24,24)',
+        },
+        black2: {
+          DEFAULT: 'rgba(32,32,32)',
+        },
+        black3: {
+          DEFAULT: 'rgba(55,55,55)',
+        },
+        black4: {
+          DEFAULT: 'rgba(18,18,18)',
         },
       },
     },
