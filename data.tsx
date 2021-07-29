@@ -12,7 +12,7 @@ import {
   SiAdobepremiere,
 } from 'react-icons/si'
 
-import { IService, Projects, Skill } from './type'
+import { IService, Project, Skill } from './type'
 
 export const services: IService[] = [
   {
@@ -103,60 +103,60 @@ export const Tools: Skill[] = [
   },
 ]
 
-export const projects: Projects[] = [
+export const projectsData: Project[] = [
   {
     name: 'VATP Business Site',
     imageUrl: '/images/vatp.PNG',
-    githubUrl: 'some url',
-    deployUrl: 'some url',
+    githubUrl: 'https://github.com/vandarrellponce/gmtp-business-site',
+    deployUrl: 'https://gmtp.vercel.app',
     category: '',
     techStack: ['React', 'Next.js'],
   },
   {
     name: 'E-commerce Site',
     imageUrl: '/images/ecommerce.PNG',
-    githubUrl: 'some url',
-    deployUrl: 'some url',
+    githubUrl: 'https://github.com/vandarrellponce/vdp-prostore',
+    deployUrl: 'https://kumbatea.herokuapp.com ',
     category: '',
     techStack: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Bootstrap'],
   },
   {
     name: 'ESSCOR Business Site',
     imageUrl: '/images/esscor.PNG',
-    githubUrl: 'some url',
-    deployUrl: 'some url',
+    githubUrl: 'https://github.com/vandarrellponce/gmtp-business-site',
+    deployUrl: 'https://gmtp.vercel.app/',
     category: '',
     techStack: ['React', 'Next.js'],
   },
   {
     name: 'GMTP Business Site',
     imageUrl: '/images/gmtp.PNG',
-    githubUrl: '',
-    deployUrl: '',
+    githubUrl: 'https://github.com/vandarrellponce/gmtp-business-site',
+    deployUrl: 'https://gmtp.vercel.app/',
     category: '',
     techStack: ['React', 'Next.js'],
   },
   {
     name: 'Zoom Clone',
     imageUrl: '/images/zoom.PNG',
-    githubUrl: '',
-    deployUrl: '',
+    githubUrl: 'https://github.com/vandarrellponce/vdp-zoom',
+    deployUrl: 'https://zoomifi.herokuapp.com',
     category: '',
     techStack: ['React'],
   },
   {
     name: 'Instagram Clone',
     imageUrl: '/images/instagram.PNG',
-    githubUrl: '',
-    deployUrl: '',
+    githubUrl: 'https://github.com/vandarrellponce/vdp-instagram',
+    deployUrl: 'https://vdp-instagram.web.app/',
     category: '',
     techStack: ['React', 'Firebase'],
   },
   {
     name: 'Amazon Clone',
     imageUrl: '/images/amazon.PNG',
-    githubUrl: '',
-    deployUrl: '',
+    githubUrl: 'https://github.com/vandarrellponce/vdp-amazon',
+    deployUrl: 'https://vdp-amzon.web.app',
     category: '',
     techStack: ['React'],
   },

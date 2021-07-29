@@ -11,7 +11,7 @@ export interface Skill {
   Icon: IconType
 }
 
-export interface Projects {
+export interface Project {
   name: string
   imageUrl: string
   githubUrl: string
