@@ -123,8 +123,8 @@ export const projectsData: Project[] = [
   {
     name: 'ESSCOR Business Site',
     imageUrl: '/images/esscor.PNG',
-    githubUrl: 'https://github.com/vandarrellponce/gmtp-business-site',
-    deployUrl: 'https://gmtp.vercel.app/',
+    githubUrl: 'https://github.com/vandarrellponce/vdp-nextjs-business-site',
+    deployUrl: 'https://esscorcebu.vercel.app',
     category: '',
     techStack: ['React', 'Next.js'],
   },
