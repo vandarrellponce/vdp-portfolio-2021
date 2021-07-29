@@ -1,6 +1,5 @@
 import ServiceCard from '../components/ServiceCard'
 import { services } from '../data'
-import BackgroundImage from '../assets/Wave.svg'
 
 const index = () => {
   return (

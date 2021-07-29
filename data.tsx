@@ -44,43 +44,43 @@ export const services: IService[] = [
 export const Stack: Skill[] = [
   {
     name: 'Javascript',
-    level: '50%',
+    level: '80%',
     Icon: IoLogoJavascript,
   },
   {
     name: 'Typescript',
-    level: '50%',
+    level: '70%',
     Icon: SiTypescript,
   },
   {
     name: 'React.js',
-    level: '50%',
+    level: '80%',
     Icon: FaReact,
   },
   {
     name: 'Redux',
-    level: '50%',
+    level: '75%',
     Icon: SiRedux,
   },
   {
     name: 'Next.js',
-    level: '50%',
+    level: '70%',
     Icon: SiNextDotJs,
   },
 
   {
     name: 'Node.js',
-    level: '50%',
+    level: '80%',
     Icon: IoLogoNodejs,
   },
   {
     name: 'Python',
-    level: '50%',
+    level: '60%',
     Icon: FaPython,
   },
   {
     name: 'MongoDB',
-    level: '50%',
+    level: '60%',
     Icon: SiMongodb,
   },
 ]
@@ -88,17 +88,17 @@ export const Stack: Skill[] = [
 export const Tools: Skill[] = [
   {
     name: 'Visual Studio Code',
-    level: '50%',
+    level: '90%',
     Icon: SiVisualstudio,
   },
   {
     name: 'Postman',
-    level: '50%',
+    level: '80%',
     Icon: SiPostman,
   },
   {
     name: 'Adobe Premier Pro',
-    level: '50%',
+    level: '70%',
     Icon: SiAdobepremiere,
   },
 ]
