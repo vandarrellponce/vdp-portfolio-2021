@@ -80,13 +80,13 @@ const Sidebar = () => {
       <div>
         <button
           onClick={() => window.open('mailto:vandarrell.ponce@gmail.com')}
-          className="w-8/12 px-5 py-2 my-2 text-sm text-white rounded-full bg-customBlack focus:outline-none"
+          className="w-8/12 px-5 py-2 my-2 text-sm text-white rounded-full bg-gradient-to-r from-red-600 to-black3 focus:outline-none"
         >
           Email me
         </button>
-        <button className="w-8/12 px-5 py-2 my-2 text-sm text-white rounded-full bg-customBlack focus:outline-none">
+        {/*  <button className="w-8/12 px-5 py-2 my-2 text-sm text-white rounded-full bg-customBlack focus:outline-none">
           Change Theme
-        </button>
+        </button> */}
       </div>
     </div>
   )

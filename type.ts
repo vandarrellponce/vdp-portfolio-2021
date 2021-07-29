@@ -10,3 +10,14 @@ export interface Skill {
   level: string
   Icon: IconType
 }
+
+export interface Projects {
+  name: string
+  imageUrl: string
+  githubUrl: string
+  deployUrl: string
+  category: string
+  techStack: string[]
+}
+
+export type Category = '2019' | '2020' | '2021'

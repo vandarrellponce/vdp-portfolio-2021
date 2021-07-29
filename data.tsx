@@ -12,7 +12,7 @@ import {
   SiAdobepremiere,
 } from 'react-icons/si'
 
-import { IService, Skill } from './type'
+import { IService, Projects, Skill } from './type'
 
 export const services: IService[] = [
   {
@@ -100,5 +100,73 @@ export const Tools: Skill[] = [
     name: 'Adobe Premier Pro',
     level: '70%',
     Icon: SiAdobepremiere,
+  },
+]
+
+export const projects: Projects[] = [
+  {
+    name: 'VATP Business Site',
+    imageUrl: '/images/vatp.PNG',
+    githubUrl: 'some url',
+    deployUrl: 'some url',
+    category: '',
+    techStack: ['React', 'Next.js'],
+  },
+  {
+    name: 'E-commerce Site',
+    imageUrl: '/images/ecommerce.PNG',
+    githubUrl: 'some url',
+    deployUrl: 'some url',
+    category: '',
+    techStack: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Bootstrap'],
+  },
+  {
+    name: 'ESSCOR Business Site',
+    imageUrl: '/images/esscor.PNG',
+    githubUrl: 'some url',
+    deployUrl: 'some url',
+    category: '',
+    techStack: ['React', 'Next.js'],
+  },
+  {
+    name: 'GMTP Business Site',
+    imageUrl: '/images/gmtp.PNG',
+    githubUrl: '',
+    deployUrl: '',
+    category: '',
+    techStack: ['React', 'Next.js'],
+  },
+  {
+    name: 'Zoom Clone',
+    imageUrl: '/images/zoom.PNG',
+    githubUrl: '',
+    deployUrl: '',
+    category: '',
+    techStack: ['React'],
+  },
+  {
+    name: 'Instagram Clone',
+    imageUrl: '/images/instagram.PNG',
+    githubUrl: '',
+    deployUrl: '',
+    category: '',
+    techStack: ['React', 'Firebase'],
+  },
+  {
+    name: 'Amazon Clone',
+    imageUrl: '/images/amazon.PNG',
+    githubUrl: '',
+    deployUrl: '',
+    category: '',
+    techStack: ['React'],
+  },
+
+  {
+    name: 'Whatsapp Clone',
+    imageUrl: '/images/vatp.PNG',
+    githubUrl: '',
+    deployUrl: '',
+    category: '',
+    techStack: ['React', 'Next.js', 'Styled Components'],
   },
 ]
