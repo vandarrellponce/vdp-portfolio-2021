@@ -1,60 +1,45 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
-import Link from 'next/link'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
-  const [activeItem, setActiveItem] = useState<string>('About')
-  const router = useRouter()
-  useEffect(() => {
-    if (router.pathname === '/') setActiveItem('About')
-    if (router.pathname === '/projects') setActiveItem('Projects')
-    if (router.pathname === '/resume') setActiveItem('Resume')
-  }, [])
-
   return (
-    <div className="flex justify-between p-4 my-3">
-      <span className="text-3xl font-bold text-white border-b-4 font-blackSans md:text-2xl">
-        {activeItem}
-      </span>
-      <div className="flex space-x-4 font-lg">
-        {activeItem !== 'About' && (
-          <Link href="/">
-            <a
-              className="text-white hover:text-red-600"
-              onClick={(e) => {
-                setActiveItem('About')
-              }}
-            >
-              About
-            </a>
-          </Link>
-        )}
+    <div className="sticky top-0 flex justify-between p-4 px-4 mb-3 bg-black4 sm:px-20 md:px-24 lg:px-60">
+      <div className="flex ml-auto space-x-4 font-lg">
+        <Link
+          className="text-xs text-white cursor-pointer md:text-sm lg:text-lg hover:text-red-400"
+          activeClass="active"
+          to={'about'}
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          About
+        </Link>
+        <Link
+          className="text-xs text-white cursor-pointer md:text-sm lg:text-lg hover:text-red-400"
+          activeClass="active"
+          to={'resume'}
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          Resume
+        </Link>
 
-        {activeItem !== 'Projects' && (
-          <Link href="/projects">
-            <a
-              className="text-white hover:text-red-600"
-              onClick={(e) => {
-                setActiveItem('Projects')
-              }}
-            >
-              Projects
-            </a>
-          </Link>
-        )}
-
-        {activeItem !== 'Resume' && (
-          <Link href="/resume">
-            <a
-              className="text-white hover:text-red-600"
-              onClick={(e) => {
-                setActiveItem('Resume')
-              }}
-            >
-              Resume
-            </a>
-          </Link>
-        )}
+        <Link
+          className="text-xs text-white cursor-pointer md:text-sm lg:text-lg hover:text-red-400"
+          activeClass="active"
+          to={'projects'}
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          Projects
+        </Link>
       </div>
     </div>
   )
