@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0 flex justify-between p-4 px-4 mb-3 bg-black4 sm:px-20 lg:px-40">
+    <div className="sticky top-0 flex justify-between p-4 px-4 mb-3 bg-black2 sm:px-20 lg:px-40">
       <div className="flex ml-auto space-x-4 font-lg">
         <Link
           className="text-xs text-white cursor-pointer md:text-sm lg:text-lg hover:text-red-400"
