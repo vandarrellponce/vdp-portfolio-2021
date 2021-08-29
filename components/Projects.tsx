@@ -11,7 +11,7 @@ const Projects = () => {
         style={{ borderTop: '2px solid rgb(54, 54, 54)' }}
       >
         {projectsData.map((project, i) => (
-          <div className="col-span-12 p-2 sm:col-span-6 lg:col-span-6" key={i}>
+          <div className="col-span-12 p-2 sm:col-span-6 lg:col-span-4" key={i}>
             <ProjectCard project={project} key={i} />
           </div>
         ))}

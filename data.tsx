@@ -105,10 +105,18 @@ export const Tools: Skill[] = [
 
 export const projectsData: Project[] = [
   {
+    name: 'Online Compiler',
+    imageUrl: '/images/vpcompiler.PNG',
+    githubUrl: 'https://github.com/vandarrellponce/vdp-jbook',
+    deployUrl: 'https://vpcompiler.vercel.app',
+    category: '',
+    techStack: ['React, Typescript, Redux'],
+  },
+  {
     name: 'VATP Business Site',
     imageUrl: '/images/vatp.PNG',
-    githubUrl: 'https://github.com/vandarrellponce/gmtp-business-site',
-    deployUrl: 'https://gmtp.vercel.app',
+    githubUrl: 'https://github.com/vandarrellponce/vatp-business-site',
+    deployUrl: 'https://vatp-samplesite.vercel.app',
     category: '',
     techStack: ['React', 'Next.js'],
   },
@@ -132,7 +140,7 @@ export const projectsData: Project[] = [
     name: 'GMTP Business Site',
     imageUrl: '/images/gmtp.PNG',
     githubUrl: 'https://github.com/vandarrellponce/gmtp-business-site',
-    deployUrl: 'https://gmtp.vercel.app/',
+    deployUrl: 'https://gmtp.vercel.app',
     category: '',
     techStack: ['React', 'Next.js'],
   },
@@ -145,10 +153,18 @@ export const projectsData: Project[] = [
     techStack: ['React'],
   },
   {
+    name: 'Whatsapp Clone',
+    imageUrl: '/images/vpchat.PNG',
+    githubUrl: 'https://github.com/vandarrellponce/vdp-nextjs-whatsapp',
+    deployUrl: 'https://vpchat.vercel.app/',
+    category: '',
+    techStack: ['React', 'Next.js', 'Styled Components'],
+  },
+  {
     name: 'Instagram Clone',
     imageUrl: '/images/instagram.PNG',
     githubUrl: 'https://github.com/vandarrellponce/vdp-instagram',
-    deployUrl: 'https://vdp-instagram.web.app/',
+    deployUrl: 'https://vdp-instagram.web.app',
     category: '',
     techStack: ['React', 'Firebase'],
   },
@@ -159,14 +175,5 @@ export const projectsData: Project[] = [
     deployUrl: 'https://vdp-amzon.web.app',
     category: '',
     techStack: ['React'],
-  },
-
-  {
-    name: 'Whatsapp Clone',
-    imageUrl: '/images/vatp.PNG',
-    githubUrl: '',
-    deployUrl: '',
-    category: '',
-    techStack: ['React', 'Next.js', 'Styled Components'],
   },
 ]
