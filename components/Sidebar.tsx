@@ -8,7 +8,7 @@ import {
 import { GoLocation } from 'react-icons/go'
 import { GiTie } from 'react-icons/gi'
 
-const ProfilePic = '../public/images/darrell.jpg'
+const ProfilePic = '/images/darrell.jpg'
 const Sidebar = () => {
   return (
     <div className="px-0 py-0">
