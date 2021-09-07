@@ -8,7 +8,7 @@ const ProjectCard: React.FC<{
   project: { name, imageUrl, deployUrl, githubUrl, category, techStack },
 }) => {
   return (
-    <div className="flex flex-col p-4 overflow-hidden text-gray-300 bg-black3 rounded-2xl">
+    <div className="flex flex-col p-4 overflow-hidden text-gray-300 bg-black2 rounded-2xl">
       <div>
         <img src={imageUrl} className="rounded-t-2xl" />
       </div>

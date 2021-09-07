@@ -46,7 +46,7 @@ const Resume = () => {
 
       <div className="grid gap-6 mt-6 md:grid-cols-2">
         {/* TECH STACK */}
-        <div className="p-6 rounded-lg bg-black2">
+        <div className="p-6 border-2 border-solid rounded-lg border-black2 ">
           <h5 className="my-3 mb-6 text-xl font-bold text-red-400">
             Tech Stack
           </h5>
@@ -57,7 +57,7 @@ const Resume = () => {
           </div>
         </div>
         {/* TOOLS AND SOFTWARE */}
-        <div className="p-6 rounded-lg bg-black2">
+        <div className="p-6 border-2 border-solid rounded-lg border-black2">
           <h5 className="my-3 mb-6 text-xl font-bold text-red-400">
             Tools & Softwares
           </h5>

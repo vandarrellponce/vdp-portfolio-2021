@@ -21,13 +21,13 @@ const Sidebar = () => {
       <h3 className="my-4 text-xl font-bold tracking-wider text-white font-blackSans">
         <span>Van Darrell </span>Ponce
       </h3>
-      <p className="px-2 py-1 my-3 text-white rounded-full bg-black3">
+      <p className="px-2 py-1 my-3 text-white border-2 border-solid rounded-full border-black2 ">
         Web Developer
       </p>
       <a
         href="/VanDarrellBPonce2021.pdf"
         download="VanDarrellPonce_Resume"
-        className="flex items-center justify-center px-2 py-1 my-3 text-white rounded-full bg-black3"
+        className="flex items-center justify-center px-2 py-1 my-3 text-white border-2 border-solid rounded-full bg-black2 border-black2"
       >
         <GiTie className="w-6 h-6" />
         Download Resume
@@ -67,7 +67,7 @@ const Sidebar = () => {
 
       {/* address */}
       <div
-        className="py-4 my-5 text-white bg-black3"
+        className="py-4 my-5 text-white bg-black2"
         style={{ marginLeft: '-1rem', marginRight: '-1rem' }}
       >
         <div className="flex items-center justify-center space-x-2">
